@@ -1,0 +1,21 @@
+<skillmenu [pagename]="allskills" >Loading...</skillmenu>
+<h2 class="ui center aligned header">All Skills</h2>
+<div class="ui stackable two column grid">
+  <div *ngFor="let skill of skills ; index as i">
+    <div *ngIf="skill === -1" class="noStories">No Skills to Load</div>
+    <div *ngIf="skill != -1">
+      <div class="column">
+        <div class="ui segment">
+          <h4> {{skill.skillname}}</h4><br> Total Score {{skill.totalscore}}<br> Passing Score {{skill.passscore}}<br>
+          <span class="desc1" style="overflow-wrap: break-word; word-wrap: break-word; width: 100px"> {{skill.shortdescription}}</span><br>
+          
+          <button [class.active]="all==true" class="ui inverted blue button" style="float: right;margin-right: 2%;" (click)="getSkillDetails(skill)">Take the test</button>
+          <button [class.active]="all==true" class="ui inverted blue button" style="float: right;margin-right: 2%;" (click)="getSkillDetails(skill)">View Details</button><br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="detailsModel" class="ui modal" style="width:400px; ">
+    <details-page [detailsModel]="detailsModel" style="position:relative;"></details-page>
+  </div>

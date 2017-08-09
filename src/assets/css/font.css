@@ -1,0 +1,490 @@
+@font-face {
+    font-family: '0059';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: '0041';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: '0043';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'S';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'E';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: '0064';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: '0055';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: '0063';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: '0064';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: '0065';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: '0046';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: '0047';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'E';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'F';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'H';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'T';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'b';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'I';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: '004B';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: '004C';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'a';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'M';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'Q';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'R';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'P';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'N';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'O';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'C';
+    src:url('../font/WTCLittleTales-WebApp.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'Y';
+    src:url('../font/Little_Tales_Web.ttf')  format('truetype');
+}
+
+@font-face {
+   font-family: Bariol Regular;
+   src: url('../font/Bariol_Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: '@';
+    src:url('../font/Little_Tales_Web.ttf')  format('truetype');
+}
+@font-face {
+    font-family: ']';
+    src:url('../font/Little_Tales_Web.ttf')  format('truetype');
+}
+@font-face {
+    font-family: '0026';
+    src:url('../font/Little_Tales_Web.ttf')  format('truetype');
+}
+.share-icon{
+  font-family: '0026';
+  font-size:33px !important;
+}
+.share-icon:before{
+    content: "\0026";
+}
+
+.bariolFont{
+  font-family:'Bariol Regular';
+}
+
+.editIcon{
+  font-family: ']';
+}
+.editIcon:before{
+     content: "\005d";
+    float: right;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-right: 6px;
+}
+.policy{
+   font-family: '@';
+}
+.policy:before{
+  content: "\0040";
+  color:white;
+  margin-top:0px;
+  font-size: 30px;
+}
+.recentFont{
+ font-family: Bariol Regular;
+}
+.headerprofile{
+  font-family: 'C';
+  font-size:45px;
+}
+.headerprofile:before{
+  content: "\0043";
+}
+.headerheart{
+  font-family: 'E';
+  font-size:42px;
+}
+.headerheart:before{
+  content: "\0045";
+}
+
+.storyclienticon{
+font-family: 'a';
+font-size: 4em;
+float: left;
+}
+.storyclienticon:before{
+content: "\0061";
+}
+.commenticon{
+font-family: 'a';
+font-size: 5em;
+float: left;
+color:#ABAAAA;
+}
+.commenticon:before{
+content: "\0061";
+}
+.leavecommenticon{
+font-family: 'a';
+font-size: 5em;
+float: left;
+padding-top:10px;
+color:#ABAAAA;
+}
+.leavecommenticon:before{
+content: "\0061";
+}
+.clienticon{
+font-family: 'a';
+font-size: 6em;
+float: left;
+color:#ABAAAA;
+}
+.clienticon:before{
+content: "\0061";
+}
+.S{
+  font-family: 'S';
+  font-size: 40px;
+  margin-top:12px;
+}
+.S:before{
+   content: "\0053";
+       padding: 3px;
+}
+.close-icon{
+  font-family: '0059';
+  font-size:80px !important;
+  width: 0% !important;
+  cursor: pointer;
+}
+.close-icon:before{
+    content: "\0059";
+}
+
+.menu-icon{
+  font-family: '0041';
+  font-size:40px !important;
+  width: 0% !important;
+}
+.menu-icon:before{
+    content: "\0041";
+}
+
+.profile-icon{
+  font-family: '0043';
+  font-size:80px !important;
+  width: 0% !important;
+  cursor: pointer;
+}
+.profile-icon:before{
+    content: "\0043";
+}
+
+.pen-icon{
+  font-family: '0064';
+  font-size:80px !important;
+  width: 0% !important;
+  cursor: pointer;
+}
+.pen-icon:before{
+    content: "\0064";
+}
+
+.stats-icon{
+  font-family: '0055';
+  font-size:50px !important;
+  width: 0% !important;
+  cursor: pointer;
+  margin-left:6px;
+}
+.stats-icon:before{
+    content: "\0055";
+}
+.preview-icon{
+  font-family: '0063';
+  font-size:35px !important;
+  width: 0% !important;
+  cursor: pointer;
+}
+.preview-icon:before{
+    content: "\0063";
+}
+.edit-icon{
+  font-family: '0064';
+  font-size:35px !important;
+  width: 0% !important;
+  cursor: pointer;
+}
+.edit-icon:before{
+    content: "\0064";
+}
+.erase-icon{
+  font-family: '0065';
+  font-size:35px !important;
+  width: 0% !important;
+  cursor: pointer;
+}
+.erase-icon:before{
+    content: "\0065";
+}
+.read-icon{
+  font-family: '0047';
+  font-size:35px !important;
+  width: 0% !important;
+  cursor: pointer;
+}
+.read-icon:before{
+    content: "\0047";
+}
+.fav-icon{
+  font-family: '0046';
+  font-size:35px !important;
+  width: 0% !important;
+  cursor: pointer;
+  color: #f26642 !important;
+}
+.fav-icon:before{
+    content: "\0046";
+}
+
+.heart-icon{
+  font-family: 'E';
+  font-size:35px !important;
+  width: 0% !important;
+  cursor: pointer;
+  color:#f26642;
+}
+.heart-icon:before{
+    content: "\0045";
+}
+.chat-icon{
+  font-family: 'H';
+  font-size:34px !important;
+  width: 0% !important;
+  cursor: pointer;
+  color:#fec23e;
+
+}
+.chat-icon:before{
+    content: "\0048";
+}
+.arrow-icon{
+  font-family: 'T';
+  font-size:30px !important;
+  width: 0% !important;
+  cursor: pointer;
+}
+.arrow-icon:before{
+    content: "\0054";
+}
+.user-icon{
+  font-family: 'b';
+  font-size:30px !important;
+  width: 0% !important;
+  cursor: pointer;
+}
+.user-icon:before{
+    content: "\0062";
+}
+.leftArrow-icon{
+  font-family: 'I';
+  font-size:30px !important;
+  width: 0% !important;
+  cursor: pointer;
+  color:#ffffff
+
+}
+.leftArrow-icon:before{
+    content: "\0049";
+}
+.openProfile-icon{
+  font-family: '0043';
+  font-size:30px !important;
+  width: 0% !important;
+  cursor: pointer;
+  color:#ffffff;
+  float:right;
+}
+.openProfile-icon:before{
+    content: "\0043";
+}
+
+.previous-icon{
+  font-family: '004B';
+  font-size:30px !important;
+  cursor: pointer;
+  float:right;
+}
+.previous-icon:before{
+    content: "\004B";
+}
+
+.next-icon{
+  font-family: '004C';
+  font-size:30px !important;
+  cursor: pointer;
+  float:right;
+}
+.next-icon:before{
+    content: "\004C";
+}
+
+.heartfill-icon{
+  font-family: 'F';
+  font-size:35px !important;
+  color: red;
+  cursor: pointer;
+}
+.heartfill-icon:before{
+  content: "\0046";
+}
+.heartfill{
+  font-family: 'F';
+  font-size:35px !important;
+  color: red;
+  cursor: pointer;
+  margin-left: 2%;
+  width: 4%;
+}
+.heartfill:before{
+  content: "\0046";
+}
+.talesicon{
+  font-family: 'Y';
+  color:White;
+  font-size:40px;
+  float:left;
+}
+.talesicon:before{
+    content: "\0079";
+}
+.literatureicon{
+  font-family: 'M';
+  color:White;
+  font-size:40px;
+  float:left;
+}
+.literatureicon:before{
+    content: "\004d";
+}
+.mythologyicon{
+  font-family: 'P';
+  color:White;
+  font-size:40px;
+  float:left;
+}
+.mythologyicon:before{
+    content: "\0050";
+}
+.sportsicon{
+  font-family: 'N';
+  color:White;
+  font-size:40px;
+  float:left;
+}
+.sportsicon:before{
+    content: "\004E";
+}
+.politicsicon{
+  font-family: 'O';
+  color:White;
+  font-size:40px;
+  float:left;
+}
+.politicsicon:before{
+    content: "\004F";
+}
+.scienceicon{
+  font-family: 'R';
+  color:White;
+  font-size:40px;
+  float:left;
+}
+.scienceicon:before{
+    content: "\052";
+}
+.articon{
+  font-family: 'Q';
+  color:White;
+  font-size:40px;
+  float:left;
+}
+.articon:before{
+    content: "\0051";
+}

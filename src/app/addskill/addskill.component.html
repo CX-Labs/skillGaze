@@ -1,0 +1,79 @@
+<skillmenu>Loading...</skillmenu>
+<div class="ui form">
+  <div class="ui stackable two column grid">
+    <div class="column">
+      <div class="field">
+        <label>Skill Name</label>
+        <input  [(ngModel)]="skillname" type="text">
+      </div>
+      <div class="column">
+        <label>Short Description</label>
+        <textarea [(ngModel)]="shortdesc" rows="2"></textarea>
+      </div>
+      <div class="column">
+        <label>Long Description</label>
+        <textarea [(ngModel)]="longdesc"></textarea>
+      </div>
+      <div class="ui doubling two column grid">
+        <div class="column">
+          <label>Total Score</label>
+          <input type="number" [(ngModel)]="totalscore">
+        </div>
+        <div class="column">
+          <label>Passing Score</label>
+          <input type="number" [(ngModel)]="passscore">
+        </div>
+
+        <div class="column">
+          <label>Duration</label>
+          <input type="number" [(ngModel)]="duration">
+        </div>
+        <div class="column">
+          <label>Number of Questions</label>
+          <input type="number" [(ngModel)]="numberofQs">
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <label>Topics to be included</label>
+      <div class="ui doubling two column grid">
+        <div class="column">
+          <input type="text"  [(ngModel)]="topic"  list="optopic" (keydown)="addTopic($event)" ngDefaultControl/>
+          <datalist (ngModel)="selectedValue" id="optopic">
+            <option *ngFor="let topic of topics ; index as i" [value]="topic.topicname">{{topic.topicname}}</option>
+          </datalist>
+        </div>
+        <div class="column"><i class="add circle big icon" (click)="addTopic($event)"></i></div>
+      </div>
+         <!--table-->
+         <div class="column" >
+       <table class="table" id="tblTopics">
+      <tr style='background-color: #dddddd;'>
+        <th>Topic Name</th>
+        <th>Number of Questions</th>
+        <th>% Weightage</th>
+      </tr>
+      <!--<tr>
+        <td contenteditable="true">Stir Fry</td>
+        <td contenteditable="true">stir-fry</td>
+        <td>
+          <span class="table-remove glyphicon glyphicon-remove"></span>
+        </td>
+        <td>
+          <span class="table-up glyphicon glyphicon-arrow-up"></span>
+          <span class="table-down glyphicon glyphicon-arrow-down"></span>
+        </td>
+      </tr>-->
+    </table>
+    </div>
+  <!--table-->
+    </div>
+  </div>
+   <div style="margin: 1% auto !important;">
+      <div class = "profButtonDiv">
+          <button class="ui button " (click) = "clearForm()">Cancel</button>&nbsp;&nbsp;&nbsp;
+          <button class="ui primary button" (click) = "saveSkill()"> Save </button>
+          <button class="ui primary button" (click) = "saveSkill()">Publish</button>
+      </div>
+  </div>
+</div>

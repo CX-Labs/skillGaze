@@ -1,0 +1,71 @@
+<div class="loginContainerDiv" style="overflow:hidden;">
+    <div class="ui two column middle aligned very relaxed stackable grid">
+
+        <div class="left aligned column" >
+            <div class="leftTextAlign">
+                <div>
+                    <!--<div class="bariolFont textDevHeight welcomeText">WELCOME</div>-->
+                    <div class="bariolFont" style="width:62%;margin-top:5%;margin-bottom:2%;">Test your skills and get ranked in the professional world</div>
+                     <div class="sqDiv">
+                    <img class="sqImg" src="../../assets/img/sq1.jpg">
+                </div>
+                </div>
+                <!--<div></div>-->
+        </div>
+
+        <div class="column" style="margin-left:-3%;">
+            <form class="ui form loginFormDiv">
+                <div class="sqDiv">
+                    <img class="sqImg" src="../../assets/img/sq1.jpg">
+                </div>
+                <div class="field uname">
+                    <div class="ui transparent input">
+                        <input  [(ngModel)]="_userName" name = "username" type="email" class=" bariolFont" placeholder="Email address">
+                    </div>
+                </div>
+                <div class="field pword">
+                    <div class="ui transparent input">
+                        <input  [(ngModel)]="_password" type="{{_loginpassword}}" name = "password" class=" bariolFont" placeholder="Password"><i *ngIf="_password" class="unhide icon" (click)="togglePasswrd()" style="margin-left: -19px;"></i>
+                    </div>
+                </div>
+                <div>
+                <div class="forgotPword">
+                    <label (click)="forgotPasswrd()" class="bariolFont">Forgot password ?</label>
+                </div>
+              
+                </div>
+                <div class="loginDiv">
+                    <div (click)="login()" class="ui blue submit button loginBtn bariolFont">Login</div>
+                </div>
+                <div class="ui horizontal divider horizontalDevider">
+                    Or
+                </div>
+                 <div style = "text-align:center;">
+                    <div class="ui facebook button" >
+                          <i class="facebook icon facebookLogin"></i>
+                          Continue using facebook
+                    </div>
+                </div> 
+                  <!--<facebook></facebook>-->
+                <div class="registerDiv">
+                    <label (click)="register()" class="bariolFont">Register</label>
+                </div>
+            </form>
+             <!--<div class="skipDiv">
+                    <label (click)="explore()" style="cursor:pointer" class="bariolFont">Let me Explore</label>
+                </div>-->
+        </div>
+        <div class="bottomDivImg">
+        </div>
+    </div>
+</div>
+
+<div id="loginModel" class="ui small modal">
+  <div class="header">Uh Oh</div>
+  <div class="content">
+    <p>Please enter valid email/password</p>
+  </div>
+  <div class="actions">
+    <div class="ui ok button">Ok</div>
+  </div>
+</div>

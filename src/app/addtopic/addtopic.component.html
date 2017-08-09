@@ -1,0 +1,28 @@
+<skillmenu>Loading...</skillmenu>
+
+<div class="ui form">
+  <div class="ui stackable two column grid">
+    <div class="column">
+      <div class="field">
+        <label>Topic Name</label>
+        <input  [(ngModel)]="topicname" type="text">
+      </div>
+      <div class="column">
+        <label>Short Description</label>
+        <textarea [(ngModel)]="shortdesc" rows="2"></textarea>
+      </div>
+      <div class="column">
+        <label>Long Description</label>
+        <textarea [(ngModel)]="longdesc"></textarea>
+      </div>
+    </div>
+    
+    </div>
+ 
+   <div style="margin: 1% auto !important;">
+      <div class = "profButtonDiv">
+          <button class="ui button " (click) = "clearForm()">Cancel</button>&nbsp;&nbsp;&nbsp;
+          <button class="ui primary button" (click) = "saveTopic()"> Save </button>
+      </div>
+  </div>
+</div>

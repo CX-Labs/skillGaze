@@ -1,0 +1,36 @@
+<!--<div class="ui header">-->
+  <div class="ui doubling two column grid">
+    <div class="column">
+  <div class="ui vertical menu">
+    <a id="allskills" class="active teal item" (click)="getSkills()">
+    All Skills
+    <div class="ui teal left pointing label">1</div>
+  </a>
+    <a id="myskills" class="item" (click)="getMySkills()">
+    My Skills
+    <div class="ui label">51</div>
+  </a>
+    <a id="profile" class="item" (click)="getMyProfile()">
+    Profile
+    <div class="ui label">1</div>
+  </a>
+    <!--<a  *ngIf="role == 'admin'" id ="newskill" class="item" (click)="addNewSkill()">-->
+    <div class="item">
+      <div class="ui transparent icon input">
+        <input type="text" placeholder="Search skills...">
+        <i class="search icon"></i>
+      </div>
+    </div>
+  </div>
+  </div>
+   <div class="column">
+  <div class="ui inline" style="float:right;margin-right: 20px;color:white;">
+    <select class="ui teal button" [(ngModel)]="filter" (change)="getFilterData($event.target.value)" style="margin-left:9%;color:white;">
+                <option style="background:black;color:white;" value="" >Select an action...</option><br/>
+                <option style="background:black;color:white;" value="addSkill">Add a new skill</option><br/>
+                <option style="background:black;color:white;" value="addTopic">Add a new topic</option><br/>
+                 <option style="background:black;color:white;" value="addQues">Add a new question</option><br/>
+             </select>
+  </div>
+   </div>
+</div>

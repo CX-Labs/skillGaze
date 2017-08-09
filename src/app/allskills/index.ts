@@ -1,0 +1,1 @@
+export * from './allskills.component';
